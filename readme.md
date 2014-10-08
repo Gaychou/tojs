@@ -39,7 +39,7 @@ add the ref in your html file if you don't use amd,cmd or [kmdjs](https://github
 
 ## Easing functions
 
-  Built-in easing functions are defined as:
+  tojs's easing functions are mapped to tweenjs's easing functions:
 
 ```js
 bounceOut:TWEEN.Easing.Bounce.Out,
