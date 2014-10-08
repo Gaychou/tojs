@@ -5,7 +5,7 @@
 
 ## About
 
-  to.js is a small JavaScript library making CSS3 backed animation
+  to.js is a small JavaScript library making animation
   extremely simple , elegant and powerful.  ==>[demo](http://htmlcssjs.duapp.com/tojs/)
 
 ## Installation
