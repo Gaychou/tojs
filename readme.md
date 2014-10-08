@@ -81,6 +81,32 @@ interpolationCatmullRom: TWEEN.Interpolation.CatmullRom
 
 you can user it such as "tojs.backInOut"
 
+## Effect
+
+tojs provide some convenient methods(shake、rubber、bounceIn、flipInX、zoomOut). you can use them like this: 
+
+```js
+tojs.get('.square').shake().start();
+```
+
+you can also add the effect to  your animation :
+
+```js
+tojs.get('.square')
+    .to()
+    .x(500,2000)
+    .y(200,2000,tojs.bouseOut)
+    //here 
+    .shake()
+    .to()
+    .alpha(0,500)       
+    .scaleX(0.1,500)
+    .scaleY(0.1,500)
+    .end(function(){
+
+    })
+    .start();
+```
 
 ## License
 
