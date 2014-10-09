@@ -1,3 +1,12 @@
+/* JavaScript animation framework 
+ * By 当耐特 http://weibo.com/iamleizhang
+ * Github: https://github.com/kmdjs/tojs
+ * blog: http://www.cnblogs.com/iamzhanglei/
+ * My website:http://htmlcssjs.duapp.com/
+ * Many thanks to https://github.com/sole/tween.js 
+ * MIT Licensed.
+ */
+ 
 ﻿; (function (win) {
     var initializing = !1, fnTest = /xyz/.test(function () { xyz }) ? /\b_super\b/ : /.*/, __class = function () { }; __class.export = []; __class.extend = function (n) { __class.export.push(n); function i() { !initializing && this.ctor && this.ctor.apply(this, arguments) } var f = this.prototype, u, r, t; initializing = !0, u = new this, initializing = !1; for (t in n) t != "statics" && (u[t] = typeof n[t] == "function" && typeof f[t] == "function" && fnTest.test(n[t]) ? function (n, t) { return function () { var r = this._super, i; return this._super = f[n], i = t.apply(this, arguments), this._super = r, i } }(t, n[t]) : n[t]); for (r in this) this.hasOwnProperty(r) && r != "extend" && (i[r] = this[r]); if (i.prototype = u, n.statics) for (t in n.statics) n.statics.hasOwnProperty(t) && (i[t] = n.statics[t], t == "ctor" && i[t]()); return i.prototype.constructor = i, i.extend = arguments.callee, i.implement = function (n) { for (var t in n) u[t] = n[t] }, i };
 
