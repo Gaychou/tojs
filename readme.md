@@ -4,7 +4,7 @@
  JavaScript animation framework.
 
 ##Demo
-http://htmlcssjs.duapp.com/transformjs/
+http://htmlcssjs.duapp.com/tojs/
 
 ## About
 
