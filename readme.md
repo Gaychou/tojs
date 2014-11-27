@@ -3,13 +3,13 @@
 
  JavaScript animation framework.
 
-##demo
+##Demo
 http://htmlcssjs.duapp.com/transformjs/
 
 ## About
 
   to.js is a small JavaScript library making animation
-  extremely simple , elegant and powerful.  ==>[demo](http://htmlcssjs.duapp.com/tojs/)
+  extremely simple , elegant and powerful.  
 
 ## Installation
 
